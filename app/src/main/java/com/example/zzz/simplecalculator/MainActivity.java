@@ -14,7 +14,8 @@ public class MainActivity extends ListActivity {
             "EditText and TextView",
             "CheckBox and RadioButtons",
             "Spinner (Dropdown)",
-            "WebView"
+            "WebView",
+            "NumbersApi"
     };
 
     @Override
@@ -43,6 +44,9 @@ public class MainActivity extends ListActivity {
                 break;
             case 4:
                 startActivity(new Intent(this, WebView_Example.class));
+                break;
+            case 5:
+                startActivity(new Intent(this, NumbersApi_Example.class));
                 break;
         }
     }

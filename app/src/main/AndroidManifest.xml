@@ -21,6 +21,7 @@
         <activity android:name=".Check_Box_Radio_Example"></activity>
         <activity android:name=".Spinner_Example"></activity>
         <activity android:name=".WebView_Example"></activity>
+        <activity android:name=".NumbersApi_Example"></activity>
     </application>
 
 </manifest>

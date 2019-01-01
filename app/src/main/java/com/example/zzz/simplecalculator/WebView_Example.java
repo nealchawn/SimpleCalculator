@@ -16,7 +16,7 @@ public class WebView_Example extends Activity {
 
         final WebView webView = (WebView)findViewById(R.id.WebView01);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://numbersapi.com/2");
+        webView.loadUrl("http://google.com");
 
         webView.setWebViewClient(new webViewClient());
     }
